@@ -1,13 +1,15 @@
-import './App.css';
-import StopWatch from './Components/StopWatch';
+import React from 'react';
+import ToDoList from './Components/ToDoList';
 import Machine from './Components/Machine';
+import StopWatch from './Components/StopWatch'
 
 function App() {
   return (
-    <div className="App">
-      <StopWatch/>
-      <Machine/>
-    </div>
+    <>
+      <StopWatch />
+      <Machine />
+      <ToDoList />
+    </>
   );
 }
 

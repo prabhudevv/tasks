@@ -28,7 +28,7 @@ const Machine = () => {
     }
   };
 
-  const sortByDisk = () => { 
+  const sortByDisk = () => {
     let machine1Data = machine1.split(",")[0].split(" ")[1];
     let machine2Data = machine2.split(",")[0].split(" ")[1];
     if (parseInt(machine1Data) > parseInt(machine2Data)) {
