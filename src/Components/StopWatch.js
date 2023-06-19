@@ -61,6 +61,7 @@ const StopWatch = () => {
 
   return (
     <>
+      <h3>Stop Watch:</h3>
       {Timer}
       {isActive ? ActiveButtons : StartButton}
     </>

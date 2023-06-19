@@ -41,6 +41,7 @@ const Machine = () => {
   return (
     <>
       <div>
+        <h3>Machine Data:</h3>
         {details ? (
           <>
             <h5>machine1: {machine1}</h5>
@@ -49,7 +50,7 @@ const Machine = () => {
         ) : (
           null
         )}
-        <h3>Sorted Data: {sortedData}</h3>
+        <p>Sorted Data: {sortedData}</p>
         <input
           type="text"
           name="machine1"

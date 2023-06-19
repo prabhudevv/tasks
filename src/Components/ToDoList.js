@@ -52,6 +52,7 @@ function ToDoList() {
 
   return (
     <div className="App">
+      <h3>ToDoList:</h3>
       <input type="text" name="new-task" value={newTask} onChange={(e) => setNewTask(e.target.value)} />
       <input type="submit" name="Add" onClick={handleSubmit} />
       <p className='task-counter'>{taskList.length - completedTaskCount} remaining out of {taskList.length} tasks</p>
