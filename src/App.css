@@ -3,3 +3,7 @@
   margin: 5px;
   padding: 5px;
 }
+.hoc-section {
+  display: flex;
+  justify-content: space-around;
+}
